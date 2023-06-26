@@ -24,11 +24,19 @@ for (int i = 0; i < PalavraSelecionada.length(); i++) {
     PalavraDividida.add(letraStr);
 }
 
+for (int j = 0; j < PalavraSelecionada.length(); j++) {
+	Placar.add("_ ");
+} //Cria o Placar
 
-		
-		
-		
-		
+System.out.println("+*+*+*+*+*+*+*+*++*+*+*+*+*+*+*+*++*+*+*+*+*+*+*+*+");
+System.out.println("                 JOGO DA FORCA                 ");
+System.out.println("+*+*+*+*+*+*+*+*++*+*+*+*+*+*+*+*++*+*+*+*+*+*+*+*+");
+System.out.println("A Palavra tem " + PalavraSelecionada.length() + " Letras");
+
+for (int i = 0; i < Placar.size(); i++) {
+    System.out.print(Placar.get(i));
+} //Mostra o Placar
+System.out.println("");
 
 	
 
